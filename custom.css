@@ -2,17 +2,17 @@
     background: transparent !important;
   }
     
-    .sqs-button-element--primary {
+.sqs-button-element--primary {
       box-shadow: 0px 0px 64px 0px rgba(255,255,255,0.5);
     }
 
-    .sqs-button-element--primary:hover {
+.sqs-button-element--primary:hover {
       box-shadow: 0px 0px 64px 0px rgba(249,194,61,0.5);
     transition: box-shadow 0.5s ease;
     }
     
     /* Fix the footer to the bottom */
-      footer.sections {
+footer.sections {
         text-decoration: none !important;
         position: fixed !important;
         left: 2% !important;
@@ -23,46 +23,47 @@
         z-index: 26 !important;
       }
     
-    #footer-sections {
+#footer-sections {
         z-index: 9999  !important;
     }
     
-    #footer-sections .sqs-gallery-design-stacked-slide {
-        border-radius: 0px !important;
-       width: 64%;
-      height: 100%;
-    /*  transform: scaleX(-.5);*/
-      margin-top: 0px;
+#footer-sections .sqs-gallery-design-stacked-slide {
+    border-radius: 0px !important;
+    width: 64%;
+    height: 100%;
+/*  transform: scaleX(-.5);*/
+    margin-top: 0px;
     left: 16%;
-     /* object-fit: cover;*/
-      align-items: center;  
+/*  object-fit: cover;*/
+    align-items: center;  
         justify-content: center; /* Center vertically */
     }
     
-    @media screen and (max-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
-        #footer-sections .sqs-gallery-design-stacked-slide {
-            width: 62%;
-          
-            left: 18%; /* Adjusted to keep the element centered */
-        }
+@media screen and (max-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
+    #footer-sections .sqs-gallery-design-stacked-slide {
+      width: 62%;
+      left: 18%; /* Adjusted to keep the element centered */
     }
-    @media screen and (max-width: 767px) and (min-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
-        #footer-sections .sqs-gallery-design-stacked-slide {
-            width: 48%;
-          
-            left: 26%; /* Adjusted to keep the element centered */
-        }
+  }
+  
+  @media screen and (max-width: 767px) and (min-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
+    #footer-sections .sqs-gallery-design-stacked-slide {
+      width: 48%;
+      left: 26%; /* Adjusted to keep the element centered */
     }
-    
-    #footer-sections .sqs-gallery-block-slideshow {border-radius: 0px ;}
-    
-    #footer-sections .sqs-gallery-design-stacked-slide img {
-     filter: brightness(0.55);
-     object-fit: contain;
-      border-radius: 16px ;
+  }
+  
+  #footer-sections .sqs-gallery-block-slideshow {
+    border-radius: 0px ;
+  }
+  
+  #footer-sections .sqs-gallery-design-stacked-slide img {
+    filter: brightness(0.55);
+    object-fit: contain;
+    border-radius: 16px ;
     /*  height: 60px !important;*/
     /* background-color: #000000;*/
-      box-shadow: 0px 0px 48px 0px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 48px 0px rgba(255,255,255,0.5);
       /*transform: scaleX(2);*/
       /*  align-items: center; /* Center horizontally */
      /*   justify-content: center; /* Center vertically */

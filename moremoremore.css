@@ -1,0 +1,148 @@
+.header {
+    display: none !important;
+    visibility: hidden;	
+    text-decoration: none !important;
+}
+ 
+footer {
+    display: none !important;
+}
+ 
+body {
+/*  padding-bottom: 160px !important; */
+    background-color: #ffffff;
+    text-decoration: none !important;
+    overflow-x: hidden;
+}
+  
+/*hide store*/
+body#collection-65839e77c533ca26c028fed5 section[data-section-id="65839e77c533ca26c028ff10"] {
+    display: none;
+}
+
+[data-section-id="659a04a0f6b7f77b0be00f9b"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+/*[data-section-id="659a04a0f6b7f77b0be00f9b"] {
+    position: relative;
+}*/
+  
+/*live evemts*/
+[data-section-id="65b19f7ba68d3e2ca1977eec"] {
+    display:none;
+}
+  
+/*.arrow {display: none !important;}*/
+  
+/*sectiom drop shadows*/
+[data-section-id="65839e77c533ca26c028ff0b"] {
+    filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.2));
+}
+
+/*quote sectiom drop shadow
+[data-section-id="6599e9a5ad50ba2d8be4a6f0"] {
+    filter: drop-shadow(10px 64px 18px rgba(255, 255, 255, 1));
+}*/
+  
+/*footer sectiom drop shadow*/
+[data-section-id="6583ae9493bb5513bdcda130"] {
+    filter: drop-shadow(0px 12px 12px rgba(0, 0, 0, 0.7));
+}
+
+/*all tertiary buttoms*/
+.sqs-button-element--tertiary {
+    font-family: Montserrat !important;
+    font-size: .83em !important;
+    font-weight: 500 !important;
+    letter-spacing: .04rem !important; 
+    /*border: 0px white !important; */
+    transition: all 0.4s ease !important; }
+  
+/* tertiary form buttoms*/
+   .sqs-block-form .sqs-button-element--tertiary {
+    color: rgba(250, 250, 250, 0.7) !important;
+    transition: all 0.2s ease-out !important; 
+    padding: 8px 20px !important;
+    border-radius: 8px !important;
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.25);
+    outline: 2px solid #00000033 !important;
+    outline-offset: -2px !important;
+    box-shadow: 0px 5px 4px 1px rgba(0, 0, 0, 0.50) !important;
+	background: linear-gradient(180deg, rgba(246, 74, 138, 0.33) 0%, rgba(78, 33, 33, 0.9) 95%) !important;
+}
+  
+    .sqs-block-form .sqs-button-element--tertiary:hover {
+    text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.60), 0px 0px 2px rgba(255, 255, 255, 0.7)  !important;
+    color: rgba(255, 255, 255, 0.99) !important;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.50) !important;
+}
+  
+.sqs-modal-lightbox .sqs-button-element--tertiary {
+    font-size: 1.2em !important;
+    color: #DFDFE1 !important;
+    transition: all 0.4s ease-out !important;
+}
+
+.sqs-modal-lightbox .sqs-button-element--tertiary:hover {
+    background: #999 !important;
+    color: #333 !important;
+    transition: all 0.7s ease !important;}
+ 
+.sqs-modal-lightbox .sqs-modal-lightbox-content {
+    justify-content: center !important;
+    align-items: center !important;}
+  
+.lightbox-inner {
+    background: rgb(00,0,0,0.3) !important;
+}
+  
+.lightbox-handle.sqs-system-button.sqs-editable-button.sqs-button-element--tertiary {
+    display: flex;
+    padding: 24px 24px 27px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 250px;
+    background: linear-gradient(110deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.1) 40%);
+    box-shadow: 0px 8px 14px 6px rgba(0, 0, 0, 0.50), 0px 4px 12px -4px #FFF; color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    color: #FFFFFF !important;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
+    font-family: 'Arsenal', sans-serif !important;
+    font-size: 21px !important;
+    font-style: italic !important;
+    font-weight: 700 !important;
+    line-height: normal !important;
+    text-transform: uppercase !important;
+}
+  
+.lightbox-handle.sqs-system-button.sqs-editable-button.sqs-button-element--tertiary:hover {
+    background: linear-gradient(110deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.00) 100%);
+    color: #00000075 !important;
+    box-shadow: 0px 6px 10px -1px rgba(0, 0, 0, 0.50), 0px 4px 6px -2px #FFF; color: #FFF;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.75);
+}
+
+/* Style for form submit button */
+.form-button-wrapper .button {
+    margin-top: 20px !important;
+}
+  
+/* Labels */
+.title {
+    color: #fff;
+    margin-bottom: 0px;
+    display: none;
+}
+  
+.accordion-item__click-target:hover .accordion-item__title {
+    color: #888;
+    transition: all 0.3s ease;
+}
