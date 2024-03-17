@@ -1,0 +1,53 @@
+<style>
+
+.fe-block-d57fabaf616b2bd5dcf3 {
+    mix-blend-mode: screen; /* Replace 'screen' with your desired blend mode */
+  text-shadow: 
+    0px 0px 3px rgba(255,255,255,.75), /* White shadow */
+    0px 0px 48px rgba(255,255,255,.5), /* White shadow */
+    0px 4px 14px rgba(0,0,0,.92); /* Black shadow */
+}
+
+[data-section-id="651f3e6959896876e498bd09"] .top-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 8px, transparent 88px);
+}
+  [data-section-id="651f3e6959896876e498bd09"] .bottom-gradient {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 8px, transparent 88px);
+}
+  
+[data-section-id="6521c78f1f0d4026748cbe8e"] {
+  position: relative; /* Required for z-index to work */
+  z-index: 10;
+  box-shadow: 0 -88px 88px 44px rgba(0,0,0,1); /* Adjust the shadow's spread and blur as needed */
+}
+
+/* Hide the section with a specific data-section-id */
+[data-section-id="651f2b9dbb64e44fee313812"],[data-section-id="6521c78f1f0d4026748cbe8e"]  {
+  opacity:1;
+  transition: opacity 2s ease-in;
+}
+  
+  /* Fix the footer to the bottom */
+footer.sections {
+  opacity:0;
+    transition: opacity 1.4s ease-out;
+}
+
+  body {
+    overflow-y: hidden !important;
+   position: fixed;
+}
+
+
+
+</style>
