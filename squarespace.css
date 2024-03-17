@@ -1,0 +1,13 @@
+    /*REMOVING THE SPACE UNDER CODE BLOCKS IN SQUARESPACE 7.1 WHEN USING FLUID ENGINE*/
+    html.squarespace-damask .sqs-blockStatus,
+    .sqs-block .removed-script {
+      display: none;
+    }
+    
+html, body {
+    /* padding-bottom: 160px !important; /* Adjust this value to match or exceed the height of your footer */
+     background-color: #000000;
+     text-decoration: none;
+     scroll-behavior: smooth;
+     overflow-x: hidden;
+ }

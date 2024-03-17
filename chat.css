@@ -1,6 +1,4 @@
-<style>
-
-    .sqs-gallery-design-stacked-slide img {
+.sqs-gallery-design-stacked-slide img {
   border-radius: 50%;
    outline: 2px solid rgb(255,255,255,1);
     outline-offset: 6px;
@@ -10,6 +8,3 @@
   #footer-sections .sqs-gallery-design-stacked-slide img{
     outline: 0px
 }
-
-
-</style>

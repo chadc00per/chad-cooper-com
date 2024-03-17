@@ -1,4 +1,4 @@
-<script>document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   var button = document.querySelector('.sqs-block-button-container a.sqs-block-button-element');
   if (button) {
     button.addEventListener('click', function(e) {
@@ -19,5 +19,3 @@
     });
   }
 });
-
-</script>

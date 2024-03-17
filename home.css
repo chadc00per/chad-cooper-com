@@ -1,4 +1,12 @@
-<style>
+body {
+  overflow-y: hidden !important;
+ position: fixed;
+}
+
+footer.sections {
+  opacity:0;
+    transition: opacity 1.4s ease-out;
+}
 
 .fe-block-d57fabaf616b2bd5dcf3 {
     mix-blend-mode: screen; /* Replace 'screen' with your desired blend mode */
@@ -36,18 +44,3 @@
   opacity:1;
   transition: opacity 2s ease-in;
 }
-  
-  /* Fix the footer to the bottom */
-footer.sections {
-  opacity:0;
-    transition: opacity 1.4s ease-out;
-}
-
-  body {
-    overflow-y: hidden !important;
-   position: fixed;
-}
-
-
-
-</style>
