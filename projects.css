@@ -1,0 +1,18 @@
+.header {
+    display: none;
+    text-decoration: none !important;
+} 
+  
+/* Target the arrow div element and destroy it with the might of a thousand suns */
+.arrow {
+    display: none !important;
+}
+
+/* Hide navigation links in the header */
+.header-nav {
+    visibility: hidden;
+}
+
+body {
+    background-color: #000;
+}

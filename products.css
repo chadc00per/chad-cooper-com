@@ -1,0 +1,53 @@
+.header {
+  display: none !important;
+  visibility: hidden;
+  text-decoration: none !important;
+}
+
+footer {
+  display: none !important;
+}
+
+.arrow {
+  display: none !important;
+}
+
+.image-grid-container {
+  display: flex;
+  z-index: 10000;
+  border-radius: 24px;
+  border: solid 1px #FFFFFF20;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: fixed;
+  bottom: 18px;
+  width: 84%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 44px;
+  padding: 18px 12px;
+  background: #FFFFFF25;
+  box-shadow: 0px -4px 16px 0px #00000040;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.image-grid-container a {
+  display: block;
+}
+
+.image-grid-container img {
+  width: 44px;
+  border-radius: 11px;
+  object-fit: cover;
+  height: 44px;
+}
+
+.image-grid-container a:hover img {
+  filter: brightness(130%);
+  box-shadow: 0 0 5px white;
+  transition: all 1s ease;
+}

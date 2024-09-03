@@ -1,247 +1,266 @@
-.header {
-  background: transparent !important;
-}
-    
-.sqs-button-element--primary {
-  box-shadow: 0px 0px 64px 0px rgba(255,255,255,0.5);
-}
-
-.sqs-button-element--primary:hover {
-  box-shadow: 0px 0px 64px 0px rgba(249,194,61,0.5);
-  transition: box-shadow 0.5s ease;
-}
-    
-    /* Fix the footer to the bottom */
-footer.sections {
-  text-decoration: none !important;
-  position: fixed !important;
-  left: 2% !important;
-  padding: 0px !important;
-  bottom: 0 !important;
-  width: 96% !important;
-  background-color: #00000000 !important;
-  z-index: 26 !important;
-}
-    
-#footer-sections {
-  z-index: 9999  !important;
-}
-    
-#footer-sections .sqs-gallery-design-stacked-slide {
-  border-radius: 0px !important;
-  width: 64%;
-  height: 100%;
-/*  transform: scaleX(-.5);*/
-  margin-top: 0px;
-  left: 16%;
-/*  object-fit: cover;*/
-  align-items: center;  
-  justify-content: center; /* Center vertically */
-}
-    
-@media screen and (max-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
-  #footer-sections .sqs-gallery-design-stacked-slide {
-    width: 62%;
-    left: 18%; /* Adjusted to keep the element centered */
-  }
-}
-  
-@media screen and (max-width: 767px) and (min-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
-  #footer-sections .sqs-gallery-design-stacked-slide {
-    width: 48%;
-    left: 26%; /* Adjusted to keep the element centered */
-    }
-  }
-  
-  #footer-sections .sqs-gallery-block-slideshow {
-    border-radius: 0px ;
-  }
-  
-#footer-sections .sqs-gallery-design-stacked-slide img {
-  filter: brightness(0.55);
-  object-fit: contain;
-  border-radius: 16px ;
-    /*  height: 60px !important;*/
-    /* background-color: #000000;*/
-  box-shadow: 0px 0px 48px 0px rgba(255,255,255,0.5);
-      /*transform: scaleX(2);*/
-      /*  align-items: center; /* Center horizontally */
-     /*   justify-content: center; /* Center vertically */
-  transition: filter 0.2s ease, box-shadow 0.2s ease; /* Add a smooth transition for the filter property */
-}
-    
-#footer-sections .sqs-gallery-design-stacked-slide img:hover {
-  box-shadow: 0px 0px 96px 0px rgba(255,255,255,1);
-  filter: brightness(1); /* Change brightness to 1 (original) on hover */
-}
-    
-.fe-block.fe-block-892fe2552555fa0d0414 {
-  box-shadow: 0px 0px 48px 0px rgba(255,255,255,0.5);
-  border-radius: 16px !important;
-  filter: brightness(0.45); 
-  transition: filter 0.2s ease, box-shadow 0.2s linear;
-}
-
-.fe-block.fe-block-892fe2552555fa0d0414:hover {
-  box-shadow: 0px 0px 96px 0px rgba(255,255,255,1);
-  filter: brightness(1);
-  border-radius: 16px !important;
-}
-    
-.fe-block-28831ea6ca0d63b4c2cc {
-  box-shadow: 0px 0px 48px 0px rgba(255,255,255,0.5);
-  border-radius: 16px !important;
-  filter: brightness(0.45);
-  transition: filter 0.2s ease, box-shadow 0.2s linear;
-}
-    
-.fe-block-28831ea6ca0d63b4c2cc:hover {
-  border-radius: 16px !important;
-  box-shadow: 0px 0px 96px 0px rgba(255,255,255,1);
-  filter: brightness(1);
-      /* Change brightness to 1 (original) on hover */
-}
-
-    /*remove umderlime*/
-a {
-  background-image:none !important;
-}
-    
-/*remove carousel sides*/
-.sqs-block-carousel .slick-slide {
-  visibility: hidden;
-}
-
-.sqs-block-carousel .slick-active {
-  visibility: visible;
-}
-
-.arrow {
-  display: none !important;
-}
-
-accordion-divider {
-  display: hidden !important;
-}
-
-/* Style for links in accordion items */
-div.accordion-item__description p a {
-  border-radius: 4px !important;
-        border: 2px solid rgba(249, 194, 61, 1);
-        background: #ffffff00 !important; /* Darker background on hover */
-        color: #F9C23D !important; /* Text color on hover (optional change) */
-        box-shadow: 0px 8px 24px -1px rgba(249, 194, 61, 0.30), 0px 8px 60px 0px rgba(249, 194, 61, 0.30);
-        cursor: pointer;
-        font-family: DIn condensed;
-        font-size: 1.55rem;
-        font-style: normal;
-        line-height: 16px; /* 76.19% */
-        letter-spacing: 1.08px;
-        text-transform: uppercase;
-        padding: 14px 12px 9px 12px;
-        transition: background 0.2s ease, color 0.1s ease, box-shadow 0.2s ease, border .2s ease;
-      }
-    
-      /* Hover effect for links in accordion items */
-div.accordion-item__description p a:hover {
-        background: #F9C23D !important;
-        color: #000 !important;
-        box-shadow: 0px 8px 36px 0px rgba(249, 194, 61, 0.40), 0px 8px 72px 1px rgba(249, 194, 61, 0.40);
-      }
-    
-      /* Hover effect for accordion item titles */
-.accordion-item__click-target:hover .accordion-item__title {
-        color: #FFFFFF; /* Changes text color to white on hover */
-        transition: all 0.3s ease;
-}
-    
-      /* Lightbox Container */
-.lightbox-content {
-        box-shadow: 0 4px 45px 3px rgba(255, 255, 255, 0.33); /* Glowing effect */
-        background-color: #222222; /* Lightbox background color */
-        padding-top: 0px; /* Reduced top padding */
-        color: black;
-        border-radius: 3px;
-}
-    
-      /* Increase the font size of form buttons */
-.lightbox-content .form-button-wrapper .button {
-  font-size: 1.7em;
-}
-    
-.form-button-wrapper .button {
-  margin-top: 20px !important;
-}
-    
-      /* Hide the form title */
-.form-title {
-  display: none;
-  visibility: hidden;
-}
-    
-      /* Reduce padding for form inner wrapper */
-.form-inner-wrapper {
-  padding: 0px;
-      }
-    
-      /* General styles for form fields */
-.field-list .form-item {
-  margin-bottom: 12px;
-      }
-    
-      /* Style for form labels */
-.title {
-  color: #fff;
-  margin-bottom: 0px;
-  display: none;
-      }
-    
-@media screen {
-  #page article section:first-child {
-    padding-top: 0px !important;
-  }
-}
-
-/* Cart Content */
-    .cart-title {
+.cart-title {
     color: #555;
-    text-transform:uppercase;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: underline;
     font-size: .8em;
     letter-spacing: .2em;
-    }
+}
 
-    .cart-container {
+/* Cart Content */
+.cart-container {
     background: #e5f5f600;
     border-radius: 15px;
     padding: 3rem;
-    border:0 px solid #333;
+    border: 0px solid #333;
     width: 80vw;
     color: #FFFFFF;
-    margin:auto
-    }
-    
-    .cart-row {
-    border:none!important;
+    margin: auto;
+}
+
+/* Product Row */
+.cart-row {
+    border: none !important;
     padding-bottom: 48px;
-    }
-    
-    .cart-row-img {
+}
+
+/* Product Image */
+.cart-row-img {
     border-radius: 0px;
-    }
-    
-    .cart-row-title {
+}
+
+/* Product Title */
+.cart-row-title {
     color: #FFFFFF !important;
     font-size: .8em !important;
-    }
-    
-    .cart-checkout-button {
+}
+
+.cart-checkout-button {
     margin-bottom: 25vh !important;
+}
+
+/* REMOVING THE SPACE UNDER CODE BLOCKS IN SQUARESPACE 7.1 WHEN USING FLUID ENGINE */
+html.squarespace-damask .sqs-blockStatus,
+.sqs-block .removed-script {
+    display: none;
+}
+
+/* .floating-cart {
+    position: fixed;
+    top: 8px !important;
+    right: 16px !important;
+    z-index: 9990 !important;
+} */
+
+.sqs-button-element--primary {
+    box-shadow: 0px 0px 64px 0px rgba(255, 255, 255, 0.5);
+}
+
+.sqs-button-element--primary:hover {
+    box-shadow: 0px 0px 64px 0px rgba(249, 194, 61, 0.5);
+    transition: box-shadow 0.5s ease;
+}
+
+.header {
+    background: transparent !important;
+}
+
+/* Fix the footer to the bottom */
+footer.sections {
+    text-decoration: none !important;
+    position: fixed !important;
+    left: 2% !important;
+    padding: 0px !important;
+    bottom: 0 !important;
+    width: 96% !important;
+    background-color: #00000000 !important;
+    z-index: 26 !important;
+}
+
+#footer-sections {
+    z-index: 9999 !important;
+}
+
+#footer-sections .sqs-gallery-design-stacked-slide {
+    border-radius: 0px !important;
+    width: 64%;
+    height: 100%;
+    /* transform: scaleX(-.5); */
+    margin-top: 0px;
+    left: 16%;
+    /* object-fit: cover; */
+    align-items: center;
+    justify-content: center; /* Center vertically */
+}
+
+@media screen and (max-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
+    #footer-sections .sqs-gallery-design-stacked-slide {
+        width: 62%;
+        left: 18%; /* Adjusted to keep the element centered */
     }
-    
-/*.floating-cart {position: fixed; top: 8px !important; 
-      right: 16px !important; 
-      z-index: 9990 !important;;
-      } */
-    
+}
+
+@media screen and (max-width: 767px) and (min-width: 420px) { /* Adjust the max-width as needed for your specific breakpoint */
+    #footer-sections .sqs-gallery-design-stacked-slide {
+        width: 48%;
+        left: 26%; /* Adjusted to keep the element centered */
+    }
+}
+
+#footer-sections .sqs-gallery-block-slideshow {
+    border-radius: 0px;
+}
+
+#footer-sections .sqs-gallery-design-stacked-slide img {
+    filter: brightness(0.55);
+    object-fit: contain;
+    border-radius: 16px;
+    /* height: 60px !important; */
+    /* background-color: #000000; */
+    box-shadow: 0px 0px 48px 0px rgba(255, 255, 255, 0.5);
+    /* transform: scaleX(2); */
+    /* align-items: center; /* Center horizontally */
+    /* justify-content: center; /* Center vertically */
+    transition: filter 0.2s ease, box-shadow 0.2s ease; /* Add a smooth transition for the filter property */
+}
+
+#footer-sections .sqs-gallery-design-stacked-slide img:hover {
+    box-shadow: 0px 0px 96px 0px rgba(255, 255, 255, 1);
+    filter: brightness(1); /* Change brightness to 1 (original) on hover */
+}
+
+.fe-block.fe-block-892fe2552555fa0d0414 {
+    box-shadow: 0px 0px 48px 0px rgba(255, 255, 255, 0.5);
+    border-radius: 16px !important;
+    filter: brightness(0.45);
+    transition: filter 0.2s ease, box-shadow 0.2s linear;
+}
+
+.fe-block.fe-block-892fe2552555fa0d0414:hover {
+    box-shadow: 0px 0px 96px 0px rgba(255, 255, 255, 1);
+    filter: brightness(1);
+    border-radius: 16px !important;
+}
+
+.fe-block-28831ea6ca0d63b4c2cc {
+    box-shadow: 0px 0px 48px 0px rgba(255, 255, 255, 0.5);
+    border-radius: 16px !important;
+    filter: brightness(0.45);
+    transition: filter 0.2s ease, box-shadow 0.2s linear;
+}
+
+.fe-block-28831ea6ca0d63b4c2cc:hover {
+    border-radius: 16px !important;
+    box-shadow: 0px 0px 96px 0px rgba(255, 255, 255, 1);
+    filter: brightness(1);
+    /* Change brightness to 1 (original) on hover */
+}
+
+/* remove underline */
+a {
+    background-image: none !important;
+}
+
+.arrow {
+    display: none !important;
+}
+
+/* remove carousel sides */
+.sqs-block-carousel .slick-slide {
+    visibility: hidden;
+}
+
+.sqs-block-carousel .slick-active {
+    visibility: visible;
+}
+
+.accordion-divider {
+    display: hidden !important;
+}
+
+/* Style for links in accordion items */
+div.accordion-item__description p a {
+    border-radius: 4px !important;
+    border: 2px solid rgba(249, 194, 61, 1);
+    background: #ffffff00 !important; /* Darker background on hover */
+    color: #F9C23D !important; /* Text color on hover (optional change) */
+    box-shadow: 0px 8px 24px -1px rgba(249, 194, 61, 0.30), 0px 8px 60px 0px rgba(249, 194, 61, 0.30);
+    cursor: pointer;
+    font-family: DIn condensed;
+    font-size: 1.55rem;
+    font-style: normal;
+    line-height: 16px; /* 76.19% */
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+    padding: 14px 12px 9px 12px;
+    transition: background 0.2s ease, color 0.1s ease, box-shadow 0.2s ease, border 0.2s ease;
+}
+
+/* Hover effect for links in accordion items */
+div.accordion-item__description p a:hover {
+    background: #F9C23D !important;
+    color: #000 !important;
+    box-shadow: 0px 8px 36px 0px rgba(249, 194, 61, 0.40), 0px 8px 72px 1px rgba(249, 194, 61, 0.40);
+}
+
+/* Hover effect for accordion item titles */
+.accordion-item__click-target:hover .accordion-item__title {
+    color: #FFFFFF; /* Changes text color to white on hover */
+    transition: all 0.3s ease;
+}
+
+/* Lightbox Container */
+.lightbox-content {
+    box-shadow: 0 4px 45px 3px rgba(255, 255, 255, 0.33); /* Glowing effect */
+    background-color: #222222; /* Lightbox background color */
+    padding-top: 0px; /* Reduced top padding */
+    color: black;
+    border-radius: 3px;
+}
+
+/* Increase the font size of form buttons */
+.lightbox-content .form-button-wrapper .button {
+    font-size: 1.7em;
+}
+
+.form-button-wrapper .button {
+    margin-top: 20px !important;
+}
+
+/* Hide the form title */
+.form-title {
+    display: none;
+    visibility: hidden;
+}
+
+/* Reduce padding for form inner wrapper */
+.form-inner-wrapper {
+    padding: 0px;
+}
+
+/* General styles for form fields */
+.field-list .form-item {
+    margin-bottom: 12px;
+}
+
+/* Style for form labels */
+.title {
+    color: #fff;
+    margin-bottom: 0px;
+    display: none;
+}
+
+@media screen {
+    #page article section:first-child {
+        padding-top: 0px !important;
+    }
+}
+
+html, body {
+    /* padding-bottom: 160px !important; /* Adjust this value to match or exceed the height of your footer */
+    background-color: #000000;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    text-decoration: none;
+}
